@@ -32,27 +32,11 @@
 
   <ItemGroup>
     <Folder Include="Hooks\" />
-    <Folder Include="Steps\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Accolite.DotNetCore\Automation.API.Accelerators\Automation.API.Accelerators.csproj" />
     <ProjectReference Include="..\Accolite.DotNetCore\Automation.UI.Reporting\Automation.Reporting.csproj" />
-    <ProjectReference Include="..\EPAM.DotNetCore\Automation.API.Accelerators\Automation.API.Accelerators.csproj" />
-    <ProjectReference Include="..\EPAM.DotNetCore\Automation.UI.Reporting\Automation.Reporting.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Features\BankingSystem.feature.cs">
-      <DependentUpon>BankingSystem.feature</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <SpecFlowFeatureFiles Update="Features\BankingSystem.feature">
-      <Visible>$(UsingMicrosoftNETSdk)</Visible>
-      <CodeBehindFile>%(RelativeDir)%(Filename).feature$(DefaultLanguageSourceExtension)</CodeBehindFile>
-    </SpecFlowFeatureFiles>
   </ItemGroup>
 
 </Project>

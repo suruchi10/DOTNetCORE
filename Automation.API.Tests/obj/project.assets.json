@@ -11791,13 +11791,13 @@
     },
     "Automation.API.Accelerators/1.0.0": {
       "type": "project",
-      "path": "../EPAM.DotNetCore/Automation.API.Accelerators/Automation.API.Accelerators.csproj",
-      "msbuildProject": "../EPAM.DotNetCore/Automation.API.Accelerators/Automation.API.Accelerators.csproj"
+      "path": "../Accolite.DotNetCore/Automation.API.Accelerators/Automation.API.Accelerators.csproj",
+      "msbuildProject": "../Accolite.DotNetCore/Automation.API.Accelerators/Automation.API.Accelerators.csproj"
     },
     "Automation.Reporting/1.0.0": {
       "type": "project",
-      "path": "../EPAM.DotNetCore/Automation.UI.Reporting/Automation.Reporting.csproj",
-      "msbuildProject": "../EPAM.DotNetCore/Automation.UI.Reporting/Automation.Reporting.csproj"
+      "path": "../Accolite.DotNetCore/Automation.UI.Reporting/Automation.Reporting.csproj",
+      "msbuildProject": "../Accolite.DotNetCore/Automation.UI.Reporting/Automation.Reporting.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11856,12 +11856,6 @@
             },
             "C:\\Projects\\CSharpApi\\Accolite.DotNetCore\\Automation.UI.Reporting\\Automation.Reporting.csproj": {
               "projectPath": "C:\\Projects\\CSharpApi\\Accolite.DotNetCore\\Automation.UI.Reporting\\Automation.Reporting.csproj"
-            },
-            "C:\\Projects\\CSharpApi\\EPAM.DotNetCore\\Automation.API.Accelerators\\Automation.API.Accelerators.csproj": {
-              "projectPath": "C:\\Projects\\CSharpApi\\EPAM.DotNetCore\\Automation.API.Accelerators\\Automation.API.Accelerators.csproj"
-            },
-            "C:\\Projects\\CSharpApi\\EPAM.DotNetCore\\Automation.UI.Reporting\\Automation.Reporting.csproj": {
-              "projectPath": "C:\\Projects\\CSharpApi\\EPAM.DotNetCore\\Automation.UI.Reporting\\Automation.Reporting.csproj"
             }
           }
         }

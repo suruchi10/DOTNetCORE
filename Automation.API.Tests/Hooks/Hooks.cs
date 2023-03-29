@@ -126,8 +126,7 @@ namespace Automation.API.Tests.Hooks
                 {
                     logger.Debug("Test completed successfully: {0}", ScenarioContext.ScenarioInfo.Title);
                 }
-
-                //_driverHelper.Driver.Close();
+   
 
             }
         }

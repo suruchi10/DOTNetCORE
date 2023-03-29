@@ -10,6 +10,9 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System.Data;
 using System.Text;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Automation.API.Accelerators.BaseClasses
 {
@@ -21,6 +24,7 @@ namespace Automation.API.Accelerators.BaseClasses
     {
         public IWebDriver Driver { get; set; }
 
+       
     }
 }
 

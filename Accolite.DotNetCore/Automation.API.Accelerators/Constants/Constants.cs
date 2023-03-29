@@ -7,8 +7,7 @@ namespace Automation.API.Accelerators.Constants
         public const string Name = "Name";
         public const string EndPointDetails = "EndpointDetails";     
         public const string MiddleName = "MiddleName";
-        public const string LastName = "LastName";
-        public const string URL = "http://eaapp.somee.com/";
+        public const string LastName = "LastName";   
         public static string Path = Directory.GetCurrentDirectory();
         public static string URI = "http://localhost:3000/";
         public static string POST = "posts/";

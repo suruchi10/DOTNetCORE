@@ -2620,6 +2620,35 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Automation.API.Accelerators/1.0.0": {
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "NUnit": "3.13.1",
+          "NUnit3TestAdapter": "3.17.0",
+          "RestSharp": "106.5.4",
+          "Selenium.WebDriver": "3.141.0",
+          "coverlet.collector": "3.0.2"
+        },
+        "runtime": {
+          "Automation.API.Accelerators.dll": {}
+        }
+      },
+      "Automation.Reporting/1.0.0": {
+        "dependencies": {
+          "ExtentReports": "4.1.0",
+          "ExtentReports.Core": "1.0.3",
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "NLog": "4.7.14",
+          "NUnit": "3.13.1",
+          "NUnit3TestAdapter": "3.17.0",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0",
+          "coverlet.collector": "3.0.2"
+        },
+        "runtime": {
+          "Automation.Reporting.dll": {}
+        }
       }
     }
   },
@@ -4189,6 +4218,16 @@
       "sha512": "sha512-3YALw8JSo3uLbjUV16P1xftRWhKc3s2xel+zoWeM05q95bLW8Fhw2sH89G+P0qHodAMbSnxSCdL0WaNqoaa7Wg==",
       "path": "webdrivermanager/2.11.0",
       "hashPath": "webdrivermanager.2.11.0.nupkg.sha512"
+    },
+    "Automation.API.Accelerators/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Automation.Reporting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
